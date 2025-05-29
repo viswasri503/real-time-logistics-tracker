@@ -67,7 +67,7 @@ Trade-Off: Verbose JSX with utility classes, but eliminates the need for managin
 1.Map Performance with Many Markers:
     Currently, the app may experience performance degradation if tracking a very large number of drivers simultaneously. Implementing clustering or virtualization     techniques for markers can help improve performance.
   
-2. WebSocket Resilience:
+2.WebSocket Resilience:
      The current WebSocket connection lacks advanced reconnection strategies and error handling. Adding automatic reconnects and better fallback mechanisms would       enhance reliability.
 
 3.UI/UX Enhancements:
