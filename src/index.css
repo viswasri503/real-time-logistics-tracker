@@ -1,0 +1,127 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  width:100%;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #893ba130;
+  padding:0.6em 1.2em;
+  font-size: 1em;
+  margin:1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/*Custom styles */
+
+.driver-marker {
+  border: 2px solid white;
+}
+
+#root{
+  padding: 1em;
+  width:100%;
+}
+
+.mapViewContainer{
+  width:100%;
+  height: 500px;
+}
+.mapboxgl-canvas{
+  height:500px;
+}
+
+ul li{
+  list-style-type: none;
+  float: left;
+  border: 1px solid #a9a02354;
+  padding: 0.5em;
+  cursor:pointer;
+  margin: 0.5em;
+  border-radius: 15px;
+}
+
+li.border-blue-500{
+  border: 1px solid #3311ad96
+  
+}
+.text-head{
+  padding: 3px;
+}
+select{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+.no-drivers-found{
+  padding: 2em;
+  margin: 1em;
+  text-align: center;
+}
+
+.mapboxgl-popup-close-button{
+  padding: 5px;
+  margin: 0px;
+  z-index: 99;
+}
+.mapboxgl-popup-content{
+  padding:20px;
+}
