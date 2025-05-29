@@ -67,7 +67,7 @@ A React-based logistics tracking dashboard with real-time driver location update
 ## Getting Started
 
 1. Clone the repo:
-git clone https://github.com/your-username/real-time-logistics-tracker.git
+git clone https://github.com/viswasri503/real-time-logistics-tracker
 cd real-time-logistics-tracker
 2.Install dependencies:
 npm install
