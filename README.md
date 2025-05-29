@@ -64,25 +64,21 @@ Why: Rapid utility-first styling enabled quick UI development with consistent sp
 Trade-Off: Verbose JSX with utility classes, but eliminates the need for managing large CSS files or complex stylesheets.
 
 ## Known Limitations or areas that could be further optimized
-  1.Map Performance with Many Markers:
+1.Map Performance with Many Markers:
     Currently, the app may experience performance degradation if tracking a very large number of drivers simultaneously. Implementing clustering or virtualization     techniques for markers can help improve performance.
-    
-  2. WebSocket Resilience:
-     The current WebSocket connection lacks advanced reconnection strategies and error handling. Adding automatic reconnects and better fallback mechanisms would       enhance reliability.
-
   
-  2. WebSocket Resilience:
+2. WebSocket Resilience:
      The current WebSocket connection lacks advanced reconnection strategies and error handling. Adding automatic reconnects and better fallback mechanisms would       enhance reliability.
 
-  3.UI/UX Enhancements:
+3.UI/UX Enhancements:
     The driver list filter is basic; adding multi-criteria filtering, search, and sorting would improve usability.
     Map popups could support richer content and more interactive controls.
 
-  4.Security & Authentication:
+4.Security & Authentication:
     The assignment does not cover user authentication or authorization. For a production environment, securing the API and WebSocket endpoints is necessary.
 
-  5.Testing Coverage:
+5.Testing Coverage:
     Limited unit and integration tests are implemented. Expanding test coverage will improve maintainability and reduce regressions.
 
-  6.Mobile Responsiveness:
+6.Mobile Responsiveness:
     While basic responsive design is in place, further optimizations for mobile usability, including touch interactions on the map, would improve accessibility.
