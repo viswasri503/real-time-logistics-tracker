@@ -35,6 +35,6 @@ coverage/
 
 # Mac system files
 *.DS_Store
-
+git 
 # Optional: local dev files
 *.local.*
