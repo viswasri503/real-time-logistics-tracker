@@ -10,17 +10,22 @@ A React-based logistics tracking dashboard with real-time driver location update
 - Location updates via WebSocket
 - Responsive UI using Tailwind
 
-## Getting Started
+## Instructions for setting up and running the application.
 
 1. Clone the repo:
-git clone https://github.com/viswasri503/real-time-logistics-tracker
-cd real-time-logistics-tracker
-2.Install dependencies:
-npm install
+   git clone https://github.com/viswasri503/real-time-logistics-tracker
+   
+   cd real-time-logistics-tracker
+   
+2. Install dependencies:
+   npm install
+   
 3. Start the development server:
-npm run dev
+   npm run dev
+   
 4. WebSocket mock server
-node mock-server/mock-server.js
+   node mock-server/mock-server.js
+   
 5. Create a `.env` with your Mapbox token:
    VITE_MAPBOX_TOKEN=pk.eyJ1Ijoidmlzd2Fzcmk1MDMiLCJhIjoiY21iODhlNTJ3MGloMjJxcTV2NW53MDR6ciJ9.CdrJl3pvj9KbgIePp51bsg
 
